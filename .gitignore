@@ -1,0 +1,43 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+eino-rag-demo
+
+# Test binary
+*.test
+
+# Output of go coverage
+*.out
+coverage.html
+
+# Dependency directories
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment (keep .env.example as template)
+.env
+.env.local
+
+# Qdrant storage
+qdrant_storage/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
